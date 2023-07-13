@@ -1,0 +1,1 @@
+g++ -std=c++20 "%cd%\*.cpp" -lodbc32 -o %cd%\bin\programm.exe
