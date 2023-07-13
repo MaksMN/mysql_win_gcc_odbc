@@ -32,7 +32,7 @@ int main()
     // Устанавливаем соединение с сервером
     switch (SQLDriverConnectA(sqlConnHandle,
                               GetDesktopWindow(),
-                              (SQLCHAR *)"DRIVER={MySQL ODBC 8.0 Unicode Driver};SERVER=pma.sfubuntu;PORT=3306;DATABASE=console_chat;UID=dbuser;PWD=dbpass;",
+                              (SQLCHAR *)"DRIVER={MySQL ODBC 8.0 Unicode Driver};SERVER=serverhost;PORT=3306;DATABASE=dbname;UID=dbuser;PWD=dbpass;",
                               SQL_NTS,
                               retconstring,
                               1024,
